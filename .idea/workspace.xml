@@ -4,11 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab97040b-c076-4e99-8ee3-eb1e0a9326d9" name="Changes" comment="" />
+    <list default="true" id="ab97040b-c076-4e99-8ee3-eb1e0a9326d9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ifal/edu/domain/entities/Enrollment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ifal/edu/domain/entities/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ifal/edu/domain/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ifal/edu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ifal/edu/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,12 +38,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "roberto",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/rober/OneDrive/Documentos/Atividade-FACUL/programacao-orientada-objetos/projeto-poo/src/main/java/br/ifal/edu/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.ifal.edu.domain.entities" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -41,16 +60,5 @@
       <updated>1745248465805</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/ifal/edu/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
