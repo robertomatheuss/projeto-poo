@@ -5,19 +5,24 @@ import java.util.List;
 
 public class Student extends User{
 
-    protected List<Enrollment> enrollments;
+    private List<Enrollment> enrollments;
 
-    public Student(int cpf, String name, String email) {
-        super(cpf, name, email);
+    public Student(String name, String email, String cpf) {
+        super(name, email,cpf);
         enrollments = new ArrayList<>();
     }
 
+    public List<Enrollment> getEnrollments() {
+        return enrollments;
+    }
+
+    public void addEnrollment(Enrollment enrollment){
+        this.enrollments.add(enrollment);
+    }
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("Estudante ");
-        sb.append("\n  Nome: ").append(getName());
-        sb.append("\n  CPF: ").append(getCpf());
-        sb.append("\n  Email: ").append(getEmail());
+        sb.append(super.toString());
         sb.append("\n  Cursando: ");
         for (Enrollment enrollment: enrollments){
             sb.append("\n   "+enrollment.getCourse().getTitle());

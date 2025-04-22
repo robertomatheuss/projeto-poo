@@ -1,17 +1,22 @@
 package br.ifal.edu.domain.entities;
 
 public abstract class User  {
-    private int cpf;
+    private int id;
     private String name;
     private String email;
+    private String cpf;
 
-    protected User(int cpf,String name,String email){
-        this.cpf = cpf;
-        this.email = email;
+    public User(String name, String email, String cpf) {
         this.name = name;
+        this.email = email;
+        this.cpf = cpf;
     }
 
-    public int getCpf() {
+    public int getId() {
+        return id;
+    }
+
+    public String getCpf() {
         return cpf;
     }
 
@@ -21,5 +26,14 @@ public abstract class User  {
 
     public String getName() {
         return name;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("\n  Nome: ").append(getName());
+        sb.append("\n  CPF: ").append(getCpf());
+        sb.append("\n  Email: ").append(getEmail());
+        return sb.toString();
     }
 }

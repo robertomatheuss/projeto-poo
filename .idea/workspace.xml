@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab97040b-c076-4e99-8ee3-eb1e0a9326d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ifal/edu/domain/entities/Enrollment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ifal/edu/domain/entities/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ifal/edu/domain/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ifal/edu/domain/entities/Classroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ifal/edu/domain/entities/StatusMateria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ifal/edu/domain/entities/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ifal/edu/domain/exceptions/StudentAlreadyEnrolledException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ifal/edu/domain/exceptions/StudentAlreadyExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ifal/edu/domain/exceptions/StudentNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ifal/edu/domain/services/EnrollmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ifal/edu/domain/services/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ifal/edu/domain/services/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/ifal/edu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ifal/edu/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ifal/edu/domain/entities/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ifal/edu/domain/entities/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ifal/edu/domain/entities/Enrollment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ifal/edu/domain/entities/Enrollment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ifal/edu/domain/entities/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ifal/edu/domain/entities/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ifal/edu/domain/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ifal/edu/domain/entities/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -40,13 +52,18 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "roberto",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/rober/OneDrive/Documentos/Atividade-FACUL/programacao-orientada-objetos/projeto-poo/src/main/java/br/ifal/edu/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/rober/OneDrive/Documentos/Atividade-FACUL/programacao-orientada-objetos/projeto-poo/src/main/java/br/ifal/edu/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.ifal.edu.domain.exceptions" />
       <recent name="br.ifal.edu.domain.entities" />
     </key>
   </component>
@@ -60,5 +77,16 @@
       <updated>1745248465805</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
